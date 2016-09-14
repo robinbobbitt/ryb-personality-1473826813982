@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 5012M
+  memory: 512M
   instances: 1
   domain: mybluemix.net
   name: ryb-personality
