@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ryb-personality
+  host: ryb-personality
+  disk_quota: 1024M
+  services:
+  - ryb-personality-personality_insights
